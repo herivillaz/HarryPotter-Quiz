@@ -147,8 +147,6 @@ function renderFinalscore() {
   questionsDisplay.style.display = "none";
   finalscoreDisplay.style.display = "block";
   scoreEl.textContent = score;
-  //console.log("user name is ", userinputEl.getAttribute("name"));
-
 }
 
 submitNameEl.addEventListener("click", function (event){
@@ -214,7 +212,7 @@ viewscoreEl.addEventListener("click", function(event) {
 
 
 
-// ##############  Timer Related Function ###########
+// Timer Related Function 
 
 // This function is where the "time" aspect of the timer runs
 // Notice no settings are changed other than to increment the secondsElapsed var
@@ -279,50 +277,3 @@ function getFormattedSeconds() {
   }
 
  });
-
-
-
-
-
-
-
-/* var startBtn = document.getElementById("startbtn");
-var timeEl = document.getElementById("timeEl");
-var quesTxtEl = document.getElementById("questionTxt");
-var quesDiv = document.getElementById("questionDiv");
-var questionDataArr = [
-    {
-        questionText: "Do you drink?",
-        answers: ["Yes", "No","I dont want to tell you!"],
-        correct: "Yes"
-    }
-];
-var secondsLeft = 120;
-var timerInterval;
-var currQues = 0;
-function startTimer(){
-    console.log("started Timer");
-    timerInterval = setInterval(function() {
-        console.log("here")
-        secondsLeft--;
-        timeEl.textContent = secondsLeft + " seconds left";
-        if(secondsLeft === 0) {
-          clearInterval(timerInterval);
-        }
-      }, 1000);
-}
-function askQuestion(){
-    questionDiv.style.display = "block";
-    quesTxtEl.textContent = questionDataArr[currQues].questionText;
-}
-// function checkAnswers(){
-// //  ...logic
-//     currQues++;
-//     clearInterval(timerInterval);
-//     askQuestion()
-// }
-startBtn.addEventListener("click", function(){
-    startTimer();
-    askQuestion();
-})
-// submitBtn */

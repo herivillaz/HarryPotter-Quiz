@@ -1,0 +1,77 @@
+html, body {
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('https://qph.fs.quoracdn.net/main-qimg-676e5586e133bebadb6edf1c3d15e220')
+      center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    align-content: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+  }
+
+#homepage, #finalscore, #highscore {
+    text-align: center;
+    padding: 50px;
+}
+
+#header {
+    display:inline;
+ 
+}
+
+#Highscore {
+    display: inline;
+    color: lightcoral;
+    width:50%;
+}
+
+#timer {
+    display: inline;
+    color: blue;
+    position:absolute;
+    right:0;
+    padding-right: 5px;
+}
+
+#quiz {
+    margin:30px;
+    padding: 5px;
+}
+
+#question-container {
+    display:none;
+    text-align: center;
+}
+
+button, .choice {
+    background-color: cadetblue;
+}
+
+.choice:hover, button:hover, choice:hover {
+    background-color:green;
+  }
+
+  @media (max-width: 400px) {
+
+    body {
+        padding: 30px;
+        margin: 30px;
+        background-size: cover;
+        position: fixed;
+        background-repeat: no-repeat;
+        font-size: 10px;
+    }
+}
+@media (max-width: 800px) {
+
+    html, body {
+        padding: 10px;
+        margin: 10px;
+        background-size: cover;
+        position: fixed;
+        background-repeat: no-repeat;
+        font-size: 10px;
+    }
+}

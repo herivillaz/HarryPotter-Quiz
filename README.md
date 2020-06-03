@@ -39,7 +39,7 @@ THEN I can save my initials and score
 
 * At the end it will show the results of the quiz, the User should submit his name and can see the High Scores. User has option to start the quiz over and make another attempt.
 
-![Results](HarryPotter-Quiz/AssetsReadMe/results.png)
+![Results](/AssetsReadMe/results.png)
 
 * With only about a month of JavaScript under my belt at the time, this became a massive undertaking, and a huge victory when I conquered it. Finding the solution involved a lot of googling, trial and error, and many many console logs for each tiny step of the process.
 * Hope you enjoy my project. Click and Trust my Password Generator.

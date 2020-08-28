@@ -5,6 +5,9 @@ Js Quiz
 
 ![Home Page](/AssetsReadMe/homepage.png)
 
+* **And it works this way**
+![video](/AssetsReadMe/video.gif)
+
 ### You can access here: https://github.com/herivillaz/HarryPotter-Quiz.git
 This project was made taking in consideration the following requirements in classes:
 ## Acceptance Criteria
